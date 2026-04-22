@@ -37,7 +37,7 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`Doplň odkaz`](#) |
+| GitHub Pages (live) | [`https://pslib-cz.github.io/2025-p2a-web-volny-projekt-DavidHavrda/`](#) |
 | Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/bZ7NkMLFkwNsyU7SgFOT7g/Viska?node-id=0-1&t=fpwCifdLjLkl0PK1-1`](#) |
 | Grafický návrh webu (Figma) | [`https://www.figma.com/design/bZ7NkMLFkwNsyU7SgFOT7g/Viska?node-id=0-1&t=fpwCifdLjLkl0PK1-1`](#) |
 | Fotografie / média | [`Doplň odkaz`](#) |
