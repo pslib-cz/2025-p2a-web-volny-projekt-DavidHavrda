@@ -27,7 +27,7 @@ _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se mů
 
 _Kdo je váš cílový uživatel / zákazník? Popište typického zástupce cílové skupiny._
 
-`Web je dělaný převážne pro fanoušky klubu ale také potenciální zájemce o účast jako hráč.
+`Web je dělaný převážne pro fanoušky klubu:
 Často se jedná o starší a méně technologicky zdatné lidi.
 Druhý typ lidí budou lidi se zájmem hrát za nás, to už budou technologicky zdatnější lidé, potřeba úderně zaujmout`
 
