@@ -38,9 +38,9 @@ _Shrnutí všech odkazů na jednom místě. Průběžně aktualizujte._
 
 | Výstup | Odkaz |
 |---|---|
-| GitHub Pages (live) | [`https://pslib-cz.github.io/2025-p2a-web-volny-projekt-DavidHavrda/`](#) |
-| Grafický manuál (Figma / Canva) | [`https://www.figma.com/design/bZ7NkMLFkwNsyU7SgFOT7g/TJ-Sokol-V%C3%ADska---David-Havrda?node-id=0-1&t=fa28uH6djVhQTsCU-1`](#) |
-| Grafický návrh webu (Figma) | [`https://www.figma.com/design/bZ7NkMLFkwNsyU7SgFOT7g/TJ-Sokol-V%C3%ADska---David-Havrda?node-id=1-2&t=fa28uH6djVhQTsCU-1`](#) |
+| GitHub Pages (live) | [`Github Pages`](https://pslib-cz.github.io/2025-p2a-web-volny-projekt-DavidHavrda/) |
+| Grafický manuál (Figma / Canva) | [`Graphic manual`](https://www.figma.com/design/bZ7NkMLFkwNsyU7SgFOT7g/TJ-Sokol-V%C3%ADska---David-Havrda?node-id=0-1&t=fa28uH6djVhQTsCU-1) |
+| Grafický návrh webu (Figma) | [`Navrh`](https://www.figma.com/design/bZ7NkMLFkwNsyU7SgFOT7g/TJ-Sokol-V%C3%ADska---David-Havrda?node-id=1-2&t=fa28uH6djVhQTsCU-1) |
 | Fotografie / média | [`Doplň odkaz`](#) |
 
 ---
