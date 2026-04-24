@@ -19,7 +19,7 @@ Web bude mít základní info, soupisku, vedení, novinky, kalendář zápasů/a
 
 _Uveďte konkurenční projekty. Co se vám na nich líbí, co ne? V čem se můžete inspirovat?_
 
-`Nevim jak je to přesně myšleno ale inspiruji se webem fotbalového týmu Inter Milán který používá podobné barvy`
+`Nevim jak je to přesně myšleno ale inspiruji se webem fotbalového týmu Inter Milán který používá podobné barvy, další inspirací je webová stránka vizuální identity Bílých Tygrů Liberec`
 
 ---
 
