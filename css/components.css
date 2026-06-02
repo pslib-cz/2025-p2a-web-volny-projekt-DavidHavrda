@@ -98,6 +98,7 @@
         border-top-left-radius: 50% 1.5625rem;
         border-top-right-radius: 50% 1.5625rem;
         box-shadow: 0 -0.625rem 1.875rem rgba(0, 0, 0, 0.15);
+        width: 100%;
     }
 
     .hero-obsah-layout {
@@ -244,6 +245,8 @@
         padding-bottom: 2.5rem;
         background: linear-gradient(180deg, #ffffff 0%, #f4f7f9 100%);
         position: relative;
+        width: 100%;
+        overflow: hidden;
     }
 
     .hodnoty-list {
@@ -474,10 +477,15 @@
         background-color: var(--clr-white);
         border-radius: 1.25rem;
         padding: 1.25rem 1.5rem;
-        display: grid;
-        grid-template-columns: 1fr auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         gap: 1.25rem;
         box-shadow: 0 0.625rem 1.875rem rgba(0, 29, 74, 0.05);
+    }
+
+    .vedeni-karta-text {
+        flex: 1;
     }
 
     .vedeni-karta h3 {
@@ -513,10 +521,16 @@
     }
 
     .vedeni-karta-foto {
+        width: 8.125rem;
+        height: 8.125rem;
         border-radius: 50%;
         overflow: hidden;
-        align-self: center;
+        flex-shrink: 0;
+        background-color: var(--clr-gray-bg);
         box-shadow: 0 0.3125rem 0.9375rem rgba(0, 29, 74, 0.1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .vedeni-karta-foto img {
@@ -550,6 +564,7 @@
         justify-content: center;
         box-shadow: 0 0.3125rem 0.9375rem rgba(0, 0, 0, 0.05);
         transition: all 0.2s ease;
+        flex-shrink: 0;
     }
 
     .slider-btn:hover {
@@ -569,7 +584,7 @@
         border-top: 0.0625rem solid rgba(255, 255, 255, 0.2);
         box-shadow: 0 1.25rem 2.5rem rgba(0, 29, 74, 0.4), inset 0 0 1.25rem rgba(0, 255, 255, 0.05);
         padding: 1.25rem;
-        max-width: 15.625rem;
+        width: 15.625rem;
         position: relative;
         overflow: hidden;
         display: flex;
@@ -621,6 +636,7 @@
         position: relative;
         margin-top: -0.625rem;
         z-index: 2;
+        width: 100%;
     }
 
     .fifa-foto-box::after {
@@ -638,6 +654,8 @@
         margin: 0;
         padding: 0;
         filter: drop-shadow(0 0.625rem 0.9375rem rgba(0, 0, 0, 0.4));
+        max-width: 100%;
+        height: 100%;
     }
 
     .hrac-karta-jmeno {
@@ -648,6 +666,7 @@
         text-align: center;
         padding-top: 0.9375rem;
         letter-spacing: 0.03em;
+        width: 100%;
     }
 
     .hrac-karta-info {
@@ -657,6 +676,7 @@
         font-weight: 700;
         color: var(--clr-cyan);
         padding: 0.375rem 0 0 0;
+        width: 100%;
         justify-content: center;
         letter-spacing: 0.08em;
     }
@@ -672,6 +692,8 @@
         padding-top: 5rem;
         padding-bottom: 5rem;
         color: var(--clr-white);
+        width: 100%;
+        overflow: hidden;
     }
 
     .zapasy-scroll {
@@ -983,10 +1005,12 @@
             gap: 3.75rem;
         }
 
-        .vedeni-karty {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.25rem;
+        .hrac-slider-wrapper {
+            justify-content: flex-start;
+        }
+
+        .hrace-cast .btn-center {
+            margin-left: 0;
         }
 
         .zapasy-sekce .container {
@@ -1013,6 +1037,14 @@
             flex-direction: row;
             align-items: center;
             justify-content: space-between;
+            margin-top: 0;
+        }
+
+        .vysledky-odkaz-text {
+            text-align: left;
+        }
+
+        .vysledky-odkaz-box .tlacitko-odkaz {
             margin-top: 0;
         }
 
