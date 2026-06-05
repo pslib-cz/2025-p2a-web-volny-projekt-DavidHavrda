@@ -35,9 +35,7 @@
         box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
     }
 
-    /* ==========================================================
-       MOBILNÍ HERO SEKCE
-       ========================================================== */
+
     .hero-sekce {
         position: relative;
         display: flex;
@@ -247,9 +245,7 @@
         color: var(--clr-white);
     }
 
-    /* ==========================================================
-       OSTATNÍ SEKCE WEBU
-       ========================================================== */
+
     .hodnoty-sekce {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -955,9 +951,7 @@
         transition: opacity 0.3s ease;
     }
 
-    /* ==========================================================================
-       DESKTOP - KONEČNÝ NEPRŮSTŘELNÝ LAYOUT (Včetně zarovnání čar u hodnot)
-       ========================================================================== */
+
     @media (min-width: 1024px) {
 
         .hero-sekce {
@@ -977,7 +971,6 @@
             padding: 0;
         }
 
-        /* OREL */
         .hero-bg-grafika {
             position: absolute;
             left: 0%;
@@ -1002,7 +995,7 @@
             object-position: top left;
         }
 
-        /* HRÁČ ("Zlatý střed") */
+
         .hero-foto-container {
             position: absolute;
             right: 8%;
@@ -1027,7 +1020,7 @@
             object-position: bottom center;
         }
 
-        /* TMAVÁ VLNA */
+
         .hero-spodek-navy {
             display: block;
             width: 100%;
@@ -1052,7 +1045,6 @@
             margin: 0 auto;
         }
 
-        /* NADPIS H1 */
         .hero-sekce h1 {
             position: absolute;
             top: -220px;
@@ -1083,9 +1075,6 @@
             max-width: 450px;
         }
 
-        /* ==========================================================
-           OSTATNÍ SEKCE DESKTOPU (Zarovnání čar, Vedení atd.)
-           ========================================================== */
 
         .hrace-vedeni-layout {
             display: grid;
@@ -1178,7 +1167,6 @@
             margin-top: 0;
         }
 
-        /* --- Sjednocení Tyrkysových Čar (::before) pro Desktopové Karty --- */
         .hodnoty-list {
             display: grid;
             grid-template-columns: 1fr 20px 1fr;
@@ -1198,7 +1186,6 @@
             justify-self: center;
         }
 
-        /* Levé karty (1. a 3.) -> Čára je na jejich pravé straně (směrem ke středu) */
         .hodnota-item:nth-child(1),
         .hodnota-item:nth-child(3) {
             grid-column: 1;
@@ -1220,7 +1207,6 @@
             right: -3px;
         }
 
-        /* Pravé karty (2. a 4.) -> Čára je na jejich levé straně (směrem ke středu) */
         .hodnota-item:nth-child(2),
         .hodnota-item:nth-child(4) {
             grid-column: 3;
@@ -1242,7 +1228,6 @@
             right: auto;
         }
 
-        /* Spodní tlačítka u hodnot */
         .hodnoty-logo-box {
             grid-column: 1;
             grid-row: 3;
@@ -1265,7 +1250,6 @@
             font-size: 15px;
         }
 
-        /* Patka */
         .patka-grid {
             display: grid;
             grid-template-columns: 1fr 1fr auto;
