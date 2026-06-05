@@ -45,14 +45,16 @@
         <section class="hero-sekce">
             <div class="hero-bila-cast">
                 <div class="hero-bg-grafika">
-                    <img src="./images/klubovy-znak-bg.png" alt="Vodoznak se znakem klubu TJ Sokol Víska" width="320"
-                        height="290" class="bg-orel-foto">
+                    <picture>
+                        <source media="(min-width: 1024px)" srcset="images/klubovy-znak-bg-desktop.png">
+                        <img src="images/klubovy-znak-bg.png" alt="Vodoznak" class="bg-orel-foto">
+                    </picture>
                 </div>
+
                 <div class="hero-foto-container">
                     <picture>
-                        <source media="(min-width: 1024px)" srcset="./images/hrac-hero-desktop.png">
-                        <img src="./images/hrac-hero-mobil.png" alt="Fotografie hlavního hráče týmu v dresu" width="250"
-                            height="270" class="hero-hrac-foto">
+                        <source media="(min-width: 1024px)" srcset="images/hrac-hero-desktop.png">
+                        <img src="images/hrac-hero-mobil.png" alt="Hráč" class="hero-hrac-foto">
                     </picture>
                 </div>
             </div>
