@@ -7,13 +7,18 @@
     --font-body: 'Inter', sans-serif;
 }
 
-body {
+html {
     font-family: var(--font-body);
-    font-size: 16px;
+    font-size: 1rem;
+    /* 16px */
+    scroll-behavior: smooth;
+}
+
+body {
     background-color: var(--clr-white);
     color: var(--clr-navy);
-    overflow-x: hidden;
     margin: 0;
+    line-height: 1.5;
 }
 
 h1,
@@ -27,9 +32,13 @@ h3 {
 a {
     text-decoration: none;
     transition: all 0.3s ease;
+    display: inline-block;
 }
 
 img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
 }
